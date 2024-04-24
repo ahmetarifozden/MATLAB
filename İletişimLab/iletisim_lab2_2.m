@@ -35,7 +35,7 @@ grid on;
 title('|bandpass|')
 xlabel('Frekans [Hz]');
 ylabel('Genlik');
-legend('s_hat', 's','Location','best');
+legend('bps_hat', 's','Location','best');
 
 bps_hat = filter(b1, a1, s);
 
